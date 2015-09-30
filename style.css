@@ -1,0 +1,54 @@
+body {
+    background-color: LightGray;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+div {
+    border: 1px solid Chocolate;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+/********header********/
+
+.top-navigation {
+  background-color: #fff;
+  border-bottom: 1px solid #DDD;
+  width: 100%;
+}
+
+.top-navigation > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.nav-links li {
+  padding-right: 3%;
+  color: #A8A8A8;
+}
+
+.nav-links li:first-child {
+  color: #333333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
