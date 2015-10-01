@@ -16,20 +16,19 @@ div {
     border: 1px solid Chocolate;
 }
 
-ul {
-  list-style-type: none;
-}
-
-
 /********header********/
 
 .top-navigation {
   background-color: #fff;
   border-bottom: 1px solid #DDD;
+  position: fixed;
+  width: 100%;
 }
 
 .content {
   padding: 0px 15px;
+  width: 960px;
+  margin: 0 auto;
 }
 
 .logo {
@@ -38,14 +37,13 @@ ul {
 }
 
 .top-navigation > .content {
-  width: 960px;
   height: 70px;
-  margin: 0 auto;
 }
 
 .nav-links {
   float: right;
   width: 70%;
+  list-style-type: none;
 }
 
 .nav-links li {
@@ -71,22 +69,40 @@ ul {
 /********main********/
 
 .introduction {
-  color: white;
-  background-image: url(images/background.jpeg);
+  background-image: url("images/background.jpeg");
+  background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
   height: 45.938rem;
 }
 
-.text {
+
+.introduction h1, h3 {
   text-align: center;
+  font-weight: 300;
+  color: white;
 }
 
-.btn {
+.introduction h1 {
+  margin-top: 17.5rem;
+  font-size: 3.125rem;
+}
+
+.introduction h3 {
+  margin-top: 1.25rem;
+  font-size: 1.563rem;
+}
+
+.introduction .btn {
+  width: 9.688rem;
+  padding: 1rem 1.5rem;
+  border-radius: 4px;
+  border-style: none;
+  margin-top: 1.563rem;
+  text-align: center;
+  font-size: 1.125rem;
+  color: white;
   background-color: #f15a29;
-  border-radius: .5em;
-  padding: 1.5% 2.5%;
-  border: none;
 }
 
 .btn:hover {
