@@ -6,7 +6,6 @@ html {
 }
 
 body {
-  background-color: LightGray;
   width: 100%;
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -66,7 +65,7 @@ div {
   color: #333333;
 }
 
-/********main********/
+/********introduction********/
 
 .introduction {
   background-image: url("images/background.jpeg");
@@ -112,8 +111,23 @@ div {
   background-color: #d9400e;
 }
 
+/********cases********/
 
+.cases h2 {
+  font-size: 2.75rem;
+  margin: 1.625rem 0 3.125rem;
+  font-weight: 300;
+  text-align: center;
+}
 
+.devices {
+  list-style-type: none;
+}
+
+.devices li {
+  display: inline-block;
+  color: black;
+}
 
 
 
