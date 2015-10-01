@@ -171,7 +171,7 @@ div {
 .content-footer span {
   color: #a7abb3;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .footer-links {
@@ -181,6 +181,11 @@ div {
 
 .footer-links li {
   display: inline-block;
+  border: 1px solid #eaebec;
+  border-radius: 50%;
+  padding: 1% 1.5%;
+  margin-left: .5%;
+  margin-right: .5%;
 }
 
 
