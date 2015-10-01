@@ -1,7 +1,15 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
     background-color: LightGray;
     width: 100%;
     font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 
 div {
@@ -12,9 +20,6 @@ ul {
   list-style-type: none;
 }
 
-a:hover {
-  color: #333333;
-}
 
 /********header********/
 
@@ -53,10 +58,15 @@ a:hover {
   letter-spacing: 0.03em;
 }
 
-.nav-links li:first-child {
-  color: #727272;
+.top-navigation .nav-links > .active {
+    color: #4c5058;
+    font-weight: 500;
 }
 
+.top-navigation .nav-links a:hover {
+    cursor: pointer;
+    color: #333333;
+}
 
 
 
