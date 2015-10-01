@@ -6,10 +6,10 @@ html {
 }
 
 body {
-    background-color: LightGray;
-    width: 100%;
-    font-family: 'Roboto', sans-serif;
-    -webkit-font-smoothing: antialiased;
+  background-color: LightGray;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 div {
@@ -38,8 +38,8 @@ ul {
 }
 
 .top-navigation > .content {
-  width: 60%;
-  height: 4.375rem;
+  width: 960px;
+  height: 70px;
   margin: 0 auto;
 }
 
@@ -59,17 +59,39 @@ ul {
 }
 
 .top-navigation .nav-links > .active {
-    color: #4c5058;
-    font-weight: 500;
+  color: #4c5058;
+  font-weight: 500;
 }
 
 .top-navigation .nav-links a:hover {
-    cursor: pointer;
-    color: #333333;
+  cursor: pointer;
+  color: #333333;
 }
 
+/********main********/
 
+.introduction {
+  color: white;
+  background-image: url(images/background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 45.938rem;
+}
 
+.text {
+  text-align: center;
+}
+
+.btn {
+  background-color: #f15a29;
+  border-radius: .5em;
+  padding: 1.5% 2.5%;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #d9400e;
+}
 
 
 
