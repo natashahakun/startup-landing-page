@@ -149,9 +149,16 @@ div {
   margin: 2.5rem 0px 1.875rem;
 }
 
+/********footer********/
 
+.content-footer h5 {
+  text-align: center;
+}
 
-
+.footer-links {
+  list-style-type: none;
+  margin: 0 auto;
+}
 
 
 
