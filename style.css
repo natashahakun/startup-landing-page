@@ -151,15 +151,37 @@ div {
 
 /********footer********/
 
-.content-footer h5 {
+.content-footer{
   text-align: center;
+  overflow: auto;
+  padding-bottom: 9.375rem;
+}
+
+.content-footer hr {
+  width: 930px;
+  border: 0;
+  border-top: 1px solid #eaebec;
+}
+
+.content-footer h5 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.content-footer span {
+  color: #a7abb3;
+  font-size: 14px;
+  font-weight: 300;
 }
 
 .footer-links {
   list-style-type: none;
-  margin: 0 auto;
+  padding: 0;
 }
 
+.footer-links li {
+  display: inline-block;
+}
 
 
 
