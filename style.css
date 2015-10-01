@@ -10,10 +10,10 @@ body {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
-
+/*
 div {
     border: 1px solid Chocolate;
-}
+}*/
 
 /********header********/
 
@@ -22,6 +22,7 @@ div {
   border-bottom: 1px solid #DDD;
   position: fixed;
   width: 100%;
+  z-index: 9999;
 }
 
 .content {
@@ -113,6 +114,11 @@ div {
 
 /********cases********/
 
+.cases {
+  margin-top: 7.875rem;
+  margin-bottom: 7.875rem;
+}
+
 .cases h2 {
   font-size: 2.75rem;
   margin: 1.625rem 0 3.125rem;
@@ -120,14 +126,29 @@ div {
   text-align: center;
 }
 
-.devices {
+.cases .devices {
   list-style-type: none;
+  padding-left: 0;
 }
 
 .devices li {
   display: inline-block;
+  width: 33%;
+  height: 225px;
+  text-align: center;
   color: black;
 }
+
+.caption h3 {
+  display: inline-block;
+  width: 309.984px;
+  height: 25px;
+  color: black;
+  font-weight: 400;
+  font-size: 1.563rem;
+  margin: 2.5rem 0px 1.875rem;
+}
+
 
 
 
