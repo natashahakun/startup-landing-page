@@ -1,6 +1,7 @@
 body {
     background-color: LightGray;
     width: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
 div {
@@ -11,11 +12,19 @@ ul {
   list-style-type: none;
 }
 
+a:hover {
+  color: #333333;
+}
+
 /********header********/
 
 .top-navigation {
   background-color: #fff;
   border-bottom: 1px solid #DDD;
+}
+
+.content {
+  padding: 0px 15px;
 }
 
 .logo {
@@ -37,14 +46,15 @@ ul {
 .nav-links li {
   float: left;
   display: inline-block;
-  padding-top: 2%;
-  padding-right: 5%;
-  font-size: 1.04rem;
-  color: #A8A8A8;
+  margin-top: 2%;
+  margin-left: 5%;
+  font-size: 16px;
+  color: #838994;
+  letter-spacing: 0.03em;
 }
 
 .nav-links li:first-child {
-  color: #333333;
+  color: #727272;
 }
 
 
