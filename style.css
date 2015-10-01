@@ -1,7 +1,6 @@
 body {
     background-color: LightGray;
     width: 100%;
-    font-family: 'Roboto', sans-serif;
 }
 
 div {
@@ -12,26 +11,35 @@ ul {
   list-style-type: none;
 }
 
-li {
-  display: inline;
-}
-
 /********header********/
 
 .top-navigation {
   background-color: #fff;
   border-bottom: 1px solid #DDD;
-  width: 100%;
+}
+
+.logo {
+  display: inline-block;
+  margin:2% 0 0 2%;
 }
 
 .top-navigation > .content {
-    width: 970px;
-    height: 70px;
-    margin: 0 auto;
+  width: 60%;
+  height: 4.375rem;
+  margin: 0 auto;
+}
+
+.nav-links {
+  float: right;
+  width: 70%;
 }
 
 .nav-links li {
-  padding-right: 3%;
+  float: left;
+  display: inline-block;
+  padding-top: 2%;
+  padding-right: 5%;
+  font-size: 1.04rem;
   color: #A8A8A8;
 }
 
