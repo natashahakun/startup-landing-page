@@ -16,16 +16,14 @@ body {
 .top-navigation {
   background-color: #fff;
   border-bottom: 1px solid #DDD;
-  position: fixed;
   width: 100%;
-  z-index: 9999;
 }
 
-.content {
+/*.content {
   padding: 0px 15px;
   width: 960px;
   margin: 0 auto;
-}
+}*/
 
 .logo {
   display: inline-block;

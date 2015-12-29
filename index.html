@@ -13,24 +13,36 @@
 </head>
 
 <body>
-<header>
-  <nav class="top-navigation">
-    <div class="content">
-      <img class="logo" src="images/logo.png" alt="Karma" width="26">
-      <ul class="nav-links">
-        <li class="active"><a>Meet Karma</a></li>
-        <li><a>How it Works</a></li>
-        <li><a>Store</a></li>
-        <li><a>Blog</a></li>
-        <li><a>Help</a></li>
-        <li><a>Login</a></li>
-      </ul>
+<header role="banner">
+  <nav class="top-navigation navbar navbar-fixed-top" role="navigation">
+    <div class="container content">
+      <div class="navbar-header">
+        <img class="logo" src="images/logo.png" alt="Karma" width="26">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right text-center">
+            <li class="active"><a href="#">Meet Karma</a></li>
+            <li><a href="#">How it Works</a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Login</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
   </nav>
 </header>
 
 <section class="introduction">
-  <div class="content">
+  <div>
     <h1>Introducing Karma</h1>
     <h3>Bring WiFi with you, everywhere you go.</h3>
     <button class="btn">Learn More</button>
@@ -38,7 +50,7 @@
 </section>
 
 <section class="cases">
-  <div class="content">
+  <div>
     <h2>Everyone needs a little Karma.</h2>
     <ul class="devices">
       <li>
@@ -64,7 +76,7 @@
 </section>
 
 <footer class="content-footer">
-  <div class="content">
+  <div>
     <h4>Join us on</h4>
     <ul class="footer-links">
       <li class="twitter">
