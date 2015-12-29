@@ -13,49 +13,17 @@ body {
 
 /********header********/
 
-.top-navigation {
+nav {
   background-color: #fff;
-  border-bottom: 1px solid #DDD;
-  width: 100%;
+  border-bottom: 2px solid #DDD;
 }
 
-/*.content {
-  padding: 0px 15px;
-  width: 960px;
-  margin: 0 auto;
-}*/
-
-.logo {
-  display: inline-block;
-  margin:2% 0 0 2%;
-}
-
-.top-navigation > .content {
-  height: 70px;
-}
-
-.nav-links {
-  float: right;
-  width: 70%;
-  list-style-type: none;
-}
-
-.nav-links li {
-  float: left;
-  display: inline-block;
-  margin-top: 2%;
-  margin-left: 5%;
-  font-size: 1em;
-  color: #838994;
-  letter-spacing: 0.03em;
-}
-
-.top-navigation .nav-links > .active {
+.active {
   color: #4c5058;
   font-weight: 500;
 }
 
-.top-navigation .nav-links a:hover {
+a:hover {
   cursor: pointer;
   color: #333333;
 }
