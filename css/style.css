@@ -11,15 +11,18 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-h3 {
-  font-size: 3.125em;
-}
-
 /********header********/
 
 nav {
   background-color: #FFF;
-  border-bottom: 5px solid #DDD;
+}
+
+.navbar {
+  border-bottom: 2px solid #DDD;
+}
+
+.navbar-brand {
+  padding-top: 7px;
 }
 
 nav .icon-bar {
@@ -63,7 +66,7 @@ nav a:hover {
 }
 
 .introduction h3 {
-  margin: 2% 0;
+  margin: 25px 0;
 }
 
 .btn {
