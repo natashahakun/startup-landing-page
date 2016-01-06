@@ -1,31 +1,31 @@
 nav {
-  background-color: #FFF;
+  background-color: $white;
 
   .navbar-brand {
     padding-top: 7px;
   }
 
   .icon-bar {
-    background-color: black;
+    background-color: $black;
   }
 
   a {
-    color: #838994;
+    color: $gray-nav-links;
   }
 
   a:hover {
     cursor: pointer;
-    color: #333;
+    color: $gray-hover;
   }
 
   .active {
-    color: #333;
+    color: $gray-hover;
     font-weight: 500;
   }
 }
 
 .navbar {
-  border-bottom: 2px solid #DDD;
+  border-bottom: 2px solid $gray-border;
 }
 
 

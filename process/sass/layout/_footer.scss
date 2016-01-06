@@ -2,7 +2,7 @@ footer {
 
   hr {
     border: 0;
-    border-top: 1px solid #eaebec;
+    border-top: 1px solid $gray-border;
   }
 
   h4 {
@@ -15,7 +15,7 @@ footer {
 
     li {
       display: inline-block;
-      border: 1px solid #eaebec;
+      border: 1px solid $gray-border;
       border-radius: 50%;
       padding: 1% 1.5%;
       margin-left: .5%;
@@ -24,20 +24,20 @@ footer {
   }
 
   span {
-    color: #a7abb3;
+    color: $gray-copyright;
     font-size: 0.875em;
     font-weight: 400;
   }
 }
 
 .twitter a {
-  color: #55acee;
+  color: $twitter;
 }
 
 .facebook a {
-  color: #4c66a4;
+  color: $facebook;
 }
 
 .instagram a {
-  color: #3f729b;
+  color: $instagram;
 }
