@@ -1,0 +1,43 @@
+footer {
+
+  hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+  }
+
+  h4 {
+    margin-top: 4%;
+    margin-bottom: 2%;
+  }
+
+  ul {
+    margin-bottom: 4%;
+
+    li {
+      display: inline-block;
+      border: 1px solid #eaebec;
+      border-radius: 50%;
+      padding: 1% 1.5%;
+      margin-left: .5%;
+      margin-right: .5%;
+    }
+  }
+
+  span {
+    color: #a7abb3;
+    font-size: 0.875em;
+    font-weight: 400;
+  }
+}
+
+.twitter a {
+  color: #55acee;
+}
+
+.facebook a {
+  color: #4c66a4;
+}
+
+.instagram a {
+  color: #3f729b;
+}
