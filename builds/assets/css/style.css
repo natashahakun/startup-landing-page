@@ -1,15 +1,4 @@
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
 
-body {
-  width: 100%;
-  font-family: 'Roboto', sans-serif;
-  -webkit-font-smoothing: antialiased;
-}
 
 /********header********/
 
