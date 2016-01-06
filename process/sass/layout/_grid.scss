@@ -21,8 +21,12 @@
   }
 
   .btn {
-    color: white;
     background-color: $btn-primary;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
   }
 
   .btn:hover {
