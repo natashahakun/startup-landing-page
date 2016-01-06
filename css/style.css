@@ -11,11 +11,19 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+h3 {
+  font-size: 3.125em;
+}
+
 /********header********/
 
 nav {
   background-color: #fff;
   border-bottom: 2px solid #DDD;
+}
+
+nav .icon-bar {
+  background-color: black;
 }
 
 .active {
@@ -35,25 +43,23 @@ a:hover {
   background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
-  max-height: 460px;
-  min-height: 350px;
+  height: 460px;
   overflow: auto;
 }
 
 
-.introduction h1, h3 {
-  text-align: center;
+.introduction h1, .introduction h3 {
   font-weight: 300;
   color: white;
 }
 
 .introduction h1 {
   margin-top: 175px;
+  font-size: 3.125em;
 }
 
 .introduction h3 {
   margin: 12.5px 0;
-  font-size: 1.2em;
 }
 
 .btn {
@@ -68,15 +74,13 @@ a:hover {
 /********cases********/
 
 .cases h2 {
-  font-size: 2.75rem;
+  font-size: 2.75em;
   font-weight: 300;
-  text-align: center;
 }
 
 .cases li {
   display: inline-block;
   height: 225px;
-  text-align: center;
   color: black;
 }
 
@@ -84,15 +88,10 @@ a:hover {
   height: 25px;
   color: black;
   font-weight: 400;
-  font-size: 1.563rem;
   margin: 2.5rem 0px 1.875rem;
 }
 
 /********footer********/
-
-footer {
-  text-align: center;
-}
 
 footer span {
   color: #a7abb3;
