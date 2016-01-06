@@ -1,29 +1,31 @@
 nav {
   background-color: #FFF;
+
+  .navbar-brand {
+    padding-top: 7px;
+  }
+
+  .icon-bar {
+    background-color: black;
+  }
+
+  a {
+    color: #838994;
+  }
+
+  a:hover {
+    cursor: pointer;
+    color: #333;
+  }
+
+  .active {
+    color: #333;
+    font-weight: 500;
+  }
 }
 
 .navbar {
   border-bottom: 2px solid #DDD;
 }
 
-.navbar-brand {
-  padding-top: 7px;
-}
 
-nav .icon-bar {
-  background-color: black;
-}
-
-nav a {
-  color: #838994;
-}
-
-nav a:hover {
-  cursor: pointer;
-  color: #333;
-}
-
-.active {
-  color: #333;
-  font-weight: 500;
-}
