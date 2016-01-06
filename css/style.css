@@ -88,14 +88,18 @@ a:hover {
   height: 25px;
   color: black;
   font-weight: 400;
-  margin: 2.5rem 0px 1.875rem;
 }
 
 /********footer********/
 
+footer hr {
+  border: 0;
+  border-top: 1px solid #eaebec;
+}
+
 footer span {
   color: #a7abb3;
-  font-size: 14px;
+  font-size: 0.875em;
   font-weight: 400;
 }
 
@@ -108,16 +112,15 @@ footer li {
   margin-right: .5%;
 }
 
-.twitter {
+.twitter a {
   color: #55acee;
 }
 
-.facebook {
+.facebook a {
   color: #4c66a4;
 }
 
-.instagram {
+.instagram a {
   color: #3f729b;
 }
-
 
